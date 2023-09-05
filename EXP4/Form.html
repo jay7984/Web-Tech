@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <strong>Name:</strong>
+        <input type="text" id="lname" name="name"><br><br>
+        <strong>Roll Number:</strong>
+        <input type="text" id="fname" name="rollno"><br><br>
+        <strong>Select Gender:</strong>
+        <label>Male<input name="male" type="radio" /></label>
+        <label>Female<input name="female" type="radio" /></label><br><br>
+        <p>
+        <strong>Select Birthdate:</strong>
+        <input type="date" name="bdate"/><br><br>
+        <strong>Upload your image file :
+            <input type="file" name="myImage" accept="image/*" />
+        </strong></p>
+        <p>
+        <strong>Branch</strong>
+        <select>
+            <option selected="selected">ECE</option>
+            <option>CSE</option>
+            <option>IC</option>
+            <option>CIVIL</option>
+        </select>
+        </p>
+        <p>
+            <strong>Address:</strong><br>
+            <textarea name="address" rows="6" cols="25" placeholder="Enter current address here"></textarea>
+        </p>
+        <p>
+            <strong>Select Hobbies:</strong>
+            Chess<input type="checkbox" name="hbs" checked="checked" value="chess"/>
+            Reading<input type="checkbox" name="hbs" value="reading"/>
+            Cricket<input type="checkbox" name="hbs" value="cricket"/>
+        </p>
+        <input type="submit">    <input type="reset">
+    </form>
+</body>
+</html>
