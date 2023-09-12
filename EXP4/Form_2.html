@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Customer Registration Page</title>
+</head>
+<body><fieldset>
+<h1>Customer Registration Page</h1>
+<form>
+  <label for="customer_id">Customer ID:</label>
+  <input type="text" name="customer_id" id="customer_id" required><br><br>
+
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" maxlength="60" required><br><br>
+
+  <label for="age">Age:</label>
+  <input type="number" name="age" id="age" min="18" max="80" required><br><br>
+
+  <label for="gender">Gender:</label>
+  <input type="radio" name="gender" id="gender_female" value="female" checked> Female
+  <input type="radio" name="gender" id="gender_male" value="male"> Male<br><br>
+
+  <label for="account_type">Customer Account Type:</label>
+  <select name="account_type" id="account_type">
+    <option value="basic">Basic</option>
+    <option value="privileged">Privileged</option>
+  </select><br><br>
+
+  <label for="photo">Photo:</label>
+  <input type="file" name="photo" id="photo" accept="image/*"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" required><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" name="password" id="password" required><br><br>
+
+  <label for="confirm_password">Confirm Password:</label>
+  <input type="password" name="confirm_password" id="confirm_password" required><br><br>
+
+  <label for="homepage_url">Homepage URL:</label>
+  <input type="url" name="homepage_url" id="homepage_url"><br><br>
+
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+</form></fieldset>
+</body>
+</html>
