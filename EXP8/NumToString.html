@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+        n = window.prompt("How many numbers? :");
+        
+        num = [];
+        for (let i=0;i<n;i++){
+            num[i] = window.prompt("Enter digit: ");
+        }
+        document.write("Entered digits are: " + num);
+        document.write("<br>");
+        int = Number(num.join(''));
+        document.write("Single integer: "+int);
+
+        </script>
+    </head>
+</html>
